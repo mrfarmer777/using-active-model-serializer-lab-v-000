@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  has_many :orders
+  
 
   def index
     @products = Product.all

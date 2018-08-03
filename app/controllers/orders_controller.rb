@@ -1,5 +1,4 @@
-class OrdersController < ApplicationController
-  belongs_to :product
+class OrdersController < ApplicationController  
 
   def index
     @orders = Order.all
